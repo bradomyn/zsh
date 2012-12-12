@@ -16,6 +16,8 @@ alias -s h=vim
 alias -s vhd=vim
 alias -s tex=vim
 
+sa(){su -c "$*"} # alias for doing su without getting into root and executes a command
+
 alias home='cd /home/bradomyn'
 alias project='cd /home/bradomyn/project'
 alias download='cd /home/bradomyn/Downloads'
@@ -52,4 +54,4 @@ plugins=(git cp)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/lm32/bin  
